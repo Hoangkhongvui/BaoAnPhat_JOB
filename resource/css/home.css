@@ -1,0 +1,106 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+#header {
+    margin-right: 0;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 96px;
+}
+
+.logo h1 {
+    font-family: monospace;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #1e1e1e75;
+}
+
+.nav-item a:hover {
+    color: #1e1e1eaa;
+}
+
+a.active { 
+    color: #1e1e1e;
+}
+
+.search-form {
+    transform: translateX(22%);
+}
+
+
+.search-form input {
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 6px; 
+    height: 42px;
+    padding: 0 10px;
+    transform: translateY(-25%);
+    font-size: 1.4rem;
+}
+
+.search-form input::placeholder {
+    color: #ccc;
+    font-size: 1.4rem;
+}
+
+.search-form input:focus {
+    outline: none;
+}
+
+.search-form button { 
+    transform: translateY(-25%);
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #353c3c;
+}
+
+.search-form button:hover { 
+    opacity: 0.8;
+}
+
+.search-icon {
+    padding: 12px;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+/* Carousel */
+#slider {
+    padding: 24px 96px;
+}
+
+#slider img {
+    border-radius: 24px;
+}
+
+#slider button {
+    font-size: 30px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem !important;
+    height: 3rem !important;
+}
