@@ -148,6 +148,10 @@ button.btn:hover {
 
  /* Carousel */
 
+ .carousel.slide {
+    margin-top: 74px;
+ }
+
  .carousel-control-next-icon,
  .carousel-control-prev-icon {
     width: 4rem;

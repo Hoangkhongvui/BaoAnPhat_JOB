@@ -1,0 +1,36 @@
+html {
+    font-family: "Roboto", sans-serif;
+    --primary-color: #2c4270;
+    --primary-text-color: #ce7c00;
+    --primary-brand-color: #fa9600;
+}
+
+
+.container-xxl.py-5 {
+    margin-top: 72px;
+}
+
+nav[aria-label="pagination"] {
+    display: flex;
+    justify-content: center;
+}
+
+nav[aria-label="pagination"] ul li a {
+    color: var(--primary-text-color);
+}
+
+nav[aria-label="pagination"] ul li a:hover {
+    color: #fff;
+    background-color: var(--primary-text-color);
+    opacity: 0.8;
+}
+
+li.page-item.active .page-link{
+    background-color: var(--primary-text-color);
+    border-color: #dee2e6;
+    z-index: 0;
+}
+
+a.page-link {
+    padding: 16px;
+}
