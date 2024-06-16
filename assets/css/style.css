@@ -363,4 +363,7 @@ p.mb-2 {
     flex: 0 0 auto;
     width: 25%;
 }
+.mb-2 { 
+  margin-bottom: 0 !important;  
+}
 }
